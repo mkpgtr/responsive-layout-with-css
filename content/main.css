@@ -1,11 +1,26 @@
 .main-container{
     margin-left:16rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     height: 80vh;
     border:3px solid blue;
     margin-right: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap:2rem;
+}
+
+.purpose_of_project{
+    max-width: 40%;
+    text-align: justify;
+    font-size: 1.4rem;
 }
 
 
