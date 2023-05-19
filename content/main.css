@@ -6,7 +6,8 @@
     border:3px solid blue;
     margin-right: 2rem;
     flex-wrap: wrap;
-
+    
+   
 }
 
 .flex-container{
@@ -21,8 +22,19 @@
     max-width: 40%;
     text-align: justify;
     font-size: 1.4rem;
+    font-size: clamp(0.8rem, -0.5286rem + 2.8571vw, 1.2rem);
 }
 
+.things-I-learnt{
+    text-align: center;
+    align-self: center;
+    font-size: clamp(1.3rem, -0.5286rem + 2.8571vw, 2.5rem);
+}
+
+
+.purpose_of_project:nth-child(2n+1){
+    text-align: center;
+}
 
 @media (max-width:768px){
     .main-container{
