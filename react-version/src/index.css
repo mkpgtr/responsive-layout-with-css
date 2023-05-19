@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --text-clr : black;
+  --bg-clr : white;
+}
+
+.light-theme{
+  --text-clr: black;
+  --bg-clr:  lightyellow;
+}
+
+.dark-theme{
+  --text-clr: white;
+  --bg-clr : black;
+}
+
+body{
+  background-color: var(--bg-clr);
+color: var(--text-clr);
+transition: 0.3s linear all;
+}
