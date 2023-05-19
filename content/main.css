@@ -1,0 +1,18 @@
+.main-container{
+    margin-left:16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border:3px solid blue;
+    margin-right: 2rem;
+}
+
+
+@media (max-width:768px){
+    .main-container{
+        margin-left: 2rem;
+    }
+
+    
+}

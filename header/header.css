@@ -1,0 +1,93 @@
+header h1.main-heading{
+    text-align: center;
+    padding:1rem;
+    font-style: oblique; 
+}
+
+
+
+
+
+
+.top-section{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.top-section .profile{
+    margin-right: 1rem;
+}
+
+.top-section .profile img{
+    width:3rem;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.buttons{
+    margin-right: 2rem;
+}
+
+.top-section .img-n-buttons{
+    display:flex;
+    align-items: center;
+}
+
+
+@media (max-width:768px){
+    header h1.main-heading{
+       display: none;
+    }
+/* search */
+    .top-section .search{
+        margin-left:2rem ;
+        
+        margin-left:2rem ;
+    }
+
+    .search i{
+        padding:0.5rem;
+        /* border-radius: 50%; */
+    }
+    .top-section .search input{
+        
+        width:12rem;
+    }
+
+    /*  */
+}
+
+@media (min-width:768px){
+    header h1.main-heading{
+       display: block;
+       font-size: 1.4rem;
+    }
+
+    header h1.main-heading{
+        font-size: 1.2rem;
+     }
+     .top-section .search{
+        margin-left:2rem ;
+        
+    }
+    .top-section .search input{
+        
+        width:12rem;
+    }
+
+    .search i{
+        padding:0.5rem;
+        /* border-radius: 50%; */
+    }
+}
+
+@media (min-width:968px){
+    header h1.main-heading{
+        display: block;
+     }
+}

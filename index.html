@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" href="header/header.css">
+  <link rel="stylesheet" href="navigation/sidebar.css">
+  <link rel="stylesheet" href="content/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Responsive Layout</title>
+</head>
+<body>
+  <header>
+   <div class="top-section">
+    <h1 class="main-heading">Joy of Writing Pure CSS <i class="fa-solid fa-pen-fancy"></i></h1>
+  
+    <div class="search">
+      <input type="text">
+      <i class="fa fa-search"></i>
+    </div>
+    <div class="img-n-buttons">
+      <div class="profile">
+        <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="">
+      </div>
+      <div class="buttons">
+        <i class="fa-regular fa-bell notification"></i>
+      </div>
+    </div>
+   </div>
+    <nav class="sidebar">
+      <div class="about-me">
+        <h2>About Me</h2>
+        <ul class="AboutMeList">
+          <li>Education</li>
+          <li>Hobbies</li>
+          <li>Opinions</li>
+          <li>Skills</li>
+          <li>Gallery</li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="smallScreen">
+      <div class="toggle-n-logo">
+        <span><i class="fa-solid fa-pen-fancy pen-logo"></i></span>
+        <span class="small-nav-toggle">
+          <i class="fa-solid fa-bars toggle-btn"></i>
+        </span>
+      </div>
+      <div class="sidenav">
+        <ul class="hide">
+          <li class="home-link">Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Education</li>
+          <li>Opinions</li>
+          <li>Skills</li>
+          <i class="close-icon">
+            <i class="fa-solid fa-times small-nav-close-btn"></i>
+          </i>
+        </ul>
+      </div>
+    </nav>
+<nav class="largeScreen">
+  <ul>
+    <li>Home</li>
+    <li>Charts</li>
+    <li>Projects</li>
+    <li>Trivia</li>
+    <li>Login/Register</li>
+  </ul>
+</nav>
+
+<div class="main-container">
+  <h3>main content</h3>
+</div>
+   
+  </header>
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
