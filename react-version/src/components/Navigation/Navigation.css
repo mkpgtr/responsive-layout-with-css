@@ -66,9 +66,10 @@ nav.smallScreen ul{
     gap:1rem;
     padding-left: 2rem;
     z-index: 1000;
-    background-color: orange;
-    opacity:0.9;
-    color:white;
+    background-color: var(--bg-clr);
+    opacity:0.8;
+    color:var(--text-clr);
+    font-weight: bold;
     transition: 0.3s linear all;
     
 }
@@ -196,4 +197,10 @@ nav.largeScreen ul li{
     }
 
     
+}
+
+/* about me list */
+
+.AboutMeList a li{
+    text-transform: capitalize;
 }

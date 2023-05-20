@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import './Navigation.css'
 import { useNavContext } from '../../contexts/NavContext'
+import { fixedSidebarLinks } from './data'
+import {NavLink} from 'react-router-dom' 
+
 const Navigation = () => {
 
   const {isSmallNavbarOpen,openSmallNavbar,closeSmallNavbar,screenSize,setScreenSize} = useNavContext()
@@ -36,11 +39,9 @@ useEffect(()=>{
        <div class="about-me">
          <h2>About Me</h2>
          <ul class="AboutMeList">
-           <li>Education</li>
-           <li>Hobbies</li>
-           <li>Opinions</li>
-           <li>Skills</li>
-           <li>Gallery</li>
+         {fixedSidebarLinks.map((link)=>{ 
+          return <NavLink to={`${link.path}`}><li key={link.id}>{link.text}</li></NavLink>
+         })}
          </ul>
        </div>
      </nav>
@@ -67,7 +68,7 @@ useEffect(()=>{
      </nav>
  <nav class="largeScreen">
    <ul>
-     <li>Home</li>
+     <NavLink to='/'><li>Home</li></NavLink>
      <li>Charts</li>
      <li>Projects</li>
      <li>Trivia</li>

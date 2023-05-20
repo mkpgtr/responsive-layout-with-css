@@ -23,7 +23,12 @@
 .hobby .img-container{
     width:24rem;
     height: 17rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
+
+
 .hobby .img-container img{
     width:100%;
     object-fit: cover;
@@ -50,7 +55,7 @@
     width: 100%;
     
     text-align: center;
-    top:12rem;
+    top:13rem;
 }
 
 
@@ -86,7 +91,7 @@
         height: 80%;
         
         text-align: center;
-        top:0rem;
+        top:1.7rem;
         right:0;
         display: flex;
         align-items: center;
@@ -150,7 +155,7 @@
         height: 80%;
         
         text-align: center;
-        top:0rem;
+        top:1.7rem;
         right:0;
         display: flex;
         align-items: center;
@@ -224,7 +229,7 @@
         height: 80%;
         
         text-align: center;
-        top:0rem;
+        top:1.8rem;
         right:0;
         display: flex;
         align-items: center;
@@ -298,7 +303,7 @@
         height: 90%;
         
         text-align: center;
-        top:0rem;
+        top:1rem;
         right:0;
         display: flex;
         align-items: center;
@@ -314,7 +319,7 @@
         width: 15%;
         
         text-align: center;
-        top:0rem;
+        top:0.8rem;
         left:0;
         display: flex;
         align-items: center;

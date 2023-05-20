@@ -25,3 +25,9 @@ body{
 color: var(--text-clr);
 transition: 0.3s linear all;
 }
+
+
+a{
+  text-decoration: none;
+  color:var(--text-clr);
+}
