@@ -20,10 +20,7 @@ const Header = () => {
     <div class="top-section">
      <h1 class="main-heading">Joy of Writing Pure CSS <i class="fa-solid fa-pen-fancy"></i></h1>
    
-     <div class="search">
-       <input type="text"/>
-       <i class="fa fa-search"></i>
-     </div>
+ 
      <div className="theme-toggler"  onClick={toggleTheme}>{theme==='light-theme' ? <i class="fa-regular fa-moon"></i> : <i class="fa-regular fa-sun"></i>}</div>
      <div class="img-n-buttons">
        <div class="profile">

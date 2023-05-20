@@ -9,6 +9,7 @@ import Education from './pages/Education/Education'
 import Opinions from './pages/Opinions/Opinions'
 import Skills from './pages/Skills/Skills'
 import Gallery from './pages/Gallery/Gallery'
+import OTPPage from './pages/OTPPage/OTPPage'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
     <Route path='/opinions'  element={<Opinions />}/>
     <Route path='/skills'  element={<Skills />}/>
     <Route path='/gallery'  element={<Gallery />}/>
+    <Route path='/otp'  element={<OTPPage />}/>
     
     </Route>
    

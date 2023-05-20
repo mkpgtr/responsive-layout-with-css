@@ -48,30 +48,7 @@ const Timeline = () => {
             <span class="left-container-arrow"></span>
         </div>
     </div>
-    <div class="container right-container">
-        <div class="text-box">
-            <h2>Apple Inc</h2>
-            <small>2018-2019</small>
-            <p>The power of a search algorithm is really tested when the indexing is based not on the general theory but actually on the realms of the unexplored knowledge floating on the vast expanses of web.</p>
-            <span class="right-container-arrow"></span>
-        </div>
-    </div>
-    <div class="container left-container">
-        <div class="text-box">
-            <h2>Apple Inc</h2>
-            <small>2018-2019</small>
-            <p>The power of a search algorithm is really tested when the indexing is based not on the general theory but actually on the realms of the unexplored knowledge floating on the vast expanses of web.</p>
-            <span class="left-container-arrow"></span>
-        </div>
-    </div>
-    <div class="container right-container">
-        <div class="text-box">
-            <h2>Apple Inc</h2>
-            <small>2018-2019</small>
-            <p>The power of a search algorithm is really tested when the indexing is based not on the general theory but actually on the realms of the unexplored knowledge floating on the vast expanses of web.</p>
-            <span class="right-container-arrow"></span>
-        </div>
-    </div>
+  
 </div>
   )
 }
