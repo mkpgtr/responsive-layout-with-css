@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Fetching</title>
+</head>
+<body>
+    <style>
+        body{
+            position: relative;
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+      
+
+        .single_product:nth-child(2n+1){
+            background-color: black;
+            color: white;
+        }
+
+     
+     
+        .single_product{
+            max-width: 60%;
+            
+            border: 2px solid black;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 1rem;
+            padding:1rem;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+cursor: pointer;
+            flex-direction: column;
+        }
+
+        .single_product.firstChild{
+            margin-top: 10rem;
+        }
+
+        .img_container{
+            width:20rem;
+        }
+        .img_container img{
+            width: 100%;
+        }
+
+        .discount{
+            position: absolute;
+            top:1.5rem;
+            left:-4rem;
+            padding:1rem;
+            font-size: 1.7rem;
+            border:1px solid black;
+            rotate: -45deg;
+            background-color: red;
+            color:white;
+            /* z-index:11; */
+
+        }
+
+      
+      
+        
+        .single_product h2 {
+            font-size: 3rem;
+            max-width: 20rem;
+        }
+        .single_product p {
+            max-width: 25rem;
+            margin: 0 auto;
+            font-style: oblique;
+            font-size: 1.1rem;
+        }
+
+        .single_product .desc_price {
+            display: flex;
+            /* border:1px solid red; */
+            /* width: 100%; */
+            align-items: center;
+            padding: 1rem;
+            flex-direction: column;
+        }
+      
+        .single_product .desc_price h3 {
+            padding:1rem;
+            background-color: black;
+            color:white;
+            border-radius: 30px;
+        }
+        .single_product .desc_price .description {
+            /* border:1px solid black; */
+            
+        }
+        .single_product .desc_price .price{
+            font-size: 3rem;
+            display: inline-block;
+            /* border:1px solid black; */
+            font-weight: bolder;
+            
+            padding:1rem;
+            
+        }
+
+        .intro{
+            text-align: center;
+            font-size: 3rem;
+            position: fixed;
+            width: 95vw;
+            z-index: 10;
+            background-color:black;
+            top:-2rem;
+            opacity: 0.9;
+            
+            
+            margin: 0 2rem;
+            padding:2rem 0;
+            /* left:40%; */
+      color:white;
+        }
+        
+        .page_heading{
+            text-align: center;
+            rotate: 90deg;
+            top:18.5rem;
+            right:-10rem;
+            display: none;
+            position: fixed;
+            font-size: 3.2rem;
+            align-items: center;
+            justify-content: center;
+            padding:  3rem;
+            border: 1px solid black;
+            background-color: black;
+            color:white;
+        }
+        .page_heading_2{
+            /* text-align: center; */
+            rotate: 270deg;
+            border: 1px solid black;
+            padding:2rem;
+            background-color: black;
+
+            top:21.5rem;
+            left:-12rem;
+            position: fixed;
+            font-size: 2.2rem;
+            display: flex;
+            align-items: center;
+            color:white;
+            justify-content: center;
+            display: none;
+
+        }
+
+        @media (min-width:992px){
+            .page_heading,.page_heading_2{
+                display: flex;
+            }
+        }
+        @media (max-width:768px){
+           .img_container{
+            width: 100%;
+           }
+
+           .intro{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* padding:0; */
+            left:1rem;
+            top:0.1rem;
+            font-size: 2rem;
+            
+           }
+        }
+    </style>
+    <h1 class="intro">Responsive Product Layout</h1>
+    <h1 class="page_heading">DummyJSON Fetch  </h1>
+    <h1 class="page_heading_2">https://dummyjson.com/products/ </h1>
+
+    <div class="container">
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
